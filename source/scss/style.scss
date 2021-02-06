@@ -512,10 +512,11 @@ input:focus ~ .bar:after {
 .footer {
   background: #393e46;
   height: 100px;
-  align-items: center;
-  .footer_text {
+  .container {
+    height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     p {
       color: #fff;
     }

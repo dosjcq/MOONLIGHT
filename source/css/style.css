@@ -596,12 +596,13 @@ input:focus ~ .bar:after {
 .footer {
   background: #393e46;
   height: 100px;
-  align-items: center;
 }
-.footer .footer_text {
+.footer .container {
+  height: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.footer .footer_text p {
+.footer .container p {
   color: #fff;
 }
