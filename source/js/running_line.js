@@ -1,6 +1,5 @@
 /**
  * @class
- * @author Artem Shinkaruk
  * @param {String} selector
  * @param {Object} options
  */
