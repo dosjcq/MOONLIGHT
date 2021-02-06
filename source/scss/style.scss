@@ -15,6 +15,13 @@ h1 {
   color: #222831;
 }
 
+@media (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+    line-height: 51px;
+  }
+}
+
 h2 {
   font-family: "Noe_Display";
   font-style: normal;
@@ -25,6 +32,13 @@ h2 {
   color: #222831;
 }
 
+@media (max-width: 700px) {
+  h2 {
+    font-size: 24px;
+    line-height: 140%;
+  }
+}
+
 h3 {
   font-family: "Noe_Display";
   font-style: normal;
@@ -33,6 +47,13 @@ h3 {
   line-height: 46px;
   letter-spacing: 0.02em;
   color: #222831;
+}
+
+@media (max-width: 700px) {
+  h3 {
+    font-size: 24px;
+    line-height: 140%;
+  }
 }
 
 P {
@@ -62,6 +83,13 @@ a {
   line-height: 30px;
   color: #222831;
   margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .date {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
 }
 
 .link_line {
