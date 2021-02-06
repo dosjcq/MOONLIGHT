@@ -380,6 +380,7 @@ hr {
   display: flex;
   align-items: center;
   margin-bottom: 96px;
+  margin-top: 200px;
 }
 .apartments .bed_photo {
   width: 50%;
