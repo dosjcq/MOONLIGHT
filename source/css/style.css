@@ -471,9 +471,6 @@ hr {
   height: 65px;
   transform: translate(100%, 0);
 }
-.header div img {
-  height: 35px;
-}
 .header .ticker-wrapper__first-half,
 .header .ticker-wrapper__second-half {
   display: flex;
