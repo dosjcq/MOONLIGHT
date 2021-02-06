@@ -580,3 +580,14 @@ input:focus ~ .bar:after {
     }
   }
 }
+
+.swiper-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 6.25vw;
+}
+
+.swiper-slide {
+  background: #000;
+  width: 80%;
+}
