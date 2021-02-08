@@ -9,18 +9,29 @@
     <link rel="stylesheet" href="./source/css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container_nav">
-                <div class="left1">
-                    <div class="logo">
-                        <img src="./source/img/Moonlight.png" alt="logo" width="100%">
+    <header class="header1">
+        <div class="container_nav">
+            <div class="wrapper1">
+                <div class="header_body">
+                    <a href="" class="header_logo">
+                        <img src="./source/img/Moonlight.png" alt="" width="100%">
+                    </a>
+                    <div class="header_burger">
+                        <span></span>
                     </div>
-                    <div class="navigation">
-                        <a class="nav_link" href="">About</a>
-                        <a class="nav_link" href="">Offers</a>
-                        <a class="nav_link" href="">Blog</a>
-                    </div>
+                    <nav class="header_menu">
+                        <ul class="header_list">
+                            <li>
+                                <a href="" class="header_link">About</a>
+                            </li>
+                            <li>
+                                <a href="" class="header_link">Offers</a>
+                            </li>
+                            <li>
+                                <a href="" class="header_link">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="right1">
                     <div class="telephone">
@@ -31,7 +42,7 @@
                     <button class="btn_menu">Contact us</button>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
     <div class="main_block">
         <h1>
@@ -384,6 +395,8 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./source/js/swiper.js"></script>
     <script src="./source/js/accordion.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="./source/js/burger_menu.js"></script>
 
 </body>
 </html>
