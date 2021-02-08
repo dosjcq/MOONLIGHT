@@ -403,7 +403,7 @@ a {
   }
 
   .header_list.active {
-    top: 40%;
+    top: 30%;
   }
 
   .header_link {
@@ -427,7 +427,6 @@ a {
 .main_block h1 {
   color: #fff;
   text-align: center;
-  padding-right: 80px;
 }
 
 @media (max-width: 700px) {
@@ -548,7 +547,7 @@ a {
   }
 
   .location__description h2 {
-    width: 60%;
+    width: 80%;
   }
 }
 .timelist {
@@ -733,7 +732,7 @@ hr {
     margin-bottom: 30px;
   }
   .true_luxury .true_luxury_heading {
-    width: 60%;
+    width: 80%;
     margin-bottom: 15px;
   }
   .true_luxury .true_luxury_heading h3 {
