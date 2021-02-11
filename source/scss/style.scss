@@ -171,6 +171,15 @@ a {
     font-size: 16px;
     white-space: nowrap;
   }
+  .btn_menu:hover {
+    color: white;
+    background-color: #222831;
+    transition: all 0.5s ease 0s;
+  }
+  .btn_menu:active {
+    background-color: #222831;
+    transition: all 0.5s ease 0s;
+  }
 }
 
 .header1 {
@@ -530,9 +539,26 @@ a {
   padding-left: 6.25vw;
   padding-right: 6.25vw;
 }
+
 .location__description p {
   margin-top: 40px;
 }
+
+// .location__description:active {
+//   opacity: 1;
+//   animation: fadeIn 2s;
+//   animation-fill-mode: forwards;
+//   transition: opacity 1.5s;
+// }
+
+// @keyframes fadeIn {
+//   from {
+//     opacity: 0;
+//   }
+//   to {
+//     opacity: 1;
+//   }
+// }
 
 @media (max-width: 700px) {
   .location__description {

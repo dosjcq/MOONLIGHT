@@ -241,6 +241,15 @@ a {
   font-size: 16px;
   white-space: nowrap;
 }
+.right1 .btn_menu:hover {
+  color: white;
+  background-color: #222831;
+  transition: all 0.5s ease 0s;
+}
+.right1 .btn_menu:active {
+  background-color: #222831;
+  transition: all 0.5s ease 0s;
+}
 
 .header1 {
   width: 100%;
